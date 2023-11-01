@@ -69,3 +69,39 @@ canvas {
     width: 60%;
     height: 60%;
 }
+
+
+
+
+
+.img {
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-10%);
+    width: 80px; /* Ajusta el ancho de la barra de progreso según tus necesidades */
+    height: 10px; /* Ajusta la altura de la barra de progreso según tus necesidades */
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    top: 410px;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 100%; /* Ajusta el porcentaje de la barra de progreso según tus necesidades inicialmente */
+    background-color: #4caf50; /* Color de la barra de progreso */
+    border-radius: 5px;
+    
+}
+.vida {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
